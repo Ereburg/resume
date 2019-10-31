@@ -204,6 +204,19 @@ h6 {
 
 .address__subway {
     position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.address__subway::before {
+    position: relative;
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background: url('../images/metro_logo.svg') center no-repeat;
+    background-size: contain;
 }
 
 /* Конец Шапки */
